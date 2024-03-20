@@ -1,0 +1,646 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+p{
+    font-family: sans-serif;
+    color: #7D7C7C;
+}
+
+
+.background .Background-perusahaan{
+    width: 100%;
+}
+
+
+
+/* Sidebar */
+
+.sidebar{
+    width: 300px;
+    margin-right: 1700px;
+    margin-left: 20px;
+    height: 400px;
+    background-color: #454545;
+
+    box-shadow: 0 0 1px 1px black;
+
+
+    font-family:cursive;
+}
+
+
+
+.sidebar h3{
+    margin-left: 55px;
+    margin-top: -399px;
+
+    padding-left: 30px;
+    padding: 10px;
+
+    color: white;
+    background-color: black;
+}
+
+
+.sidebar a:active,
+.sidebar a.active {
+    color: rgb(255, 0, 0); /* Warna teks tautan yang aktif */
+    background-color: rgb(131, 88, 88); /* Warna latar belakang saat tautan aktif */
+}
+
+
+.sidebar nav ul li a{
+    text-decoration: none;
+    list-style-type: none;
+
+    color: white;
+
+    margin-left: 25px;
+
+    padding: 10px;
+    padding-right: 130px;
+    background-color: #272829;
+}
+
+.sidebar a:hover{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+/* kONTEN */
+
+.container{
+    margin: auto;
+    width: 1200px;
+    height: 100px;
+}
+
+
+
+
+/* Navbar */
+
+ .container .header .gambar{
+    width: 320px;
+    height: 190px;
+    
+
+    transition: all 640ms ease;
+}
+
+
+
+    .container .header{
+    display: inline-block;
+
+    padding: 10px;
+    margin-top: -45px;
+
+    background-color: #F1EFEF;
+    width: 1200px;
+    height: auto;
+    box-shadow: 0 0 10px 4px;
+
+
+
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.container .header h3{
+    margin-left:  285px;
+    margin-left:  285px;
+    margin-right: 100px;
+
+
+    margin-top: -70px;
+
+    color: #272829;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 4.2px;
+
+    border: 2px solid black;
+    border-radius: 8px;
+    
+    display: flex;
+    justify-content: center;    
+}
+
+
+
+.container .header nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    
+    margin-left: 255px; 
+}
+
+.container .header nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+
+    color: #272829;
+    font-weight: 700;
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    transition: all 640ms ease;
+}
+
+.container .header nav ul li a:hover{
+    color: #4477CE;
+    font-weight: 700;
+
+} 
+
+.container .profil{
+    background-color: white;
+}
+
+.container .profil p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.container .profil h2{
+    
+
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 24px;
+}
+
+
+
+
+
+.content .produksi{
+    background-color: white;
+}
+
+.content .produksi #produk{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+
+}
+
+
+
+
+/* Ciki1 */
+
+
+.content .produksi .Chiki1{
+    margin-left: 100px;
+}
+
+.content .produksi .Chiki1 h2{
+    margin-top: -350px;
+    margin-left: 350px;
+
+    font-family: sans-serif;
+    
+    color: rgba(0, 0, 0, 0.762);
+}
+
+
+.content .produksi .Chiki1 p{
+    margin-left: 350px;
+    
+}
+
+.content .produksi .Chiki1 a{
+    color: rgba(255, 0, 0, 0.818);
+    margin-left: 350px;
+    font-family: sans-serif;
+
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.content .produksi .Chiki1 .p1{
+
+    color:rgba(0, 0, 0, 0.762);
+
+}
+
+
+.content .produksi .Chiki1 a:hover{
+    color: #7D7C7C;
+    
+}
+
+.content .produksi .Chiki1 .hr1{
+
+    margin-top: 200px;
+
+}
+
+.Chiki1 .harga{
+    color: #272829;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.Chiki1 .button{
+    font-size: 25px;
+
+    /* untuk background di perlebar */
+    padding-right: 102px;
+    padding-left: 52px;
+
+    /* untuk animasi */
+    background-color: white;
+    color: green;
+    font-weight: 700;
+    border: 2px solid green;
+    border-radius: 5px;
+
+    box-shadow: 0 0 0 0;
+
+    transition: all 680ms ease;
+
+    width: 40px;
+}
+
+.Chiki1 .button:hover{
+    background-color: green;
+    color: white;
+    font-weight: 700;
+
+    border: 2px solid black;
+
+    box-shadow: 0 0 1px 10px;
+    border-radius: 5px;
+
+}
+
+
+/* Ciki2 */
+
+
+.content .produksi .Chiki2{
+    margin-left: 100px;
+}
+
+.content .produksi .Chiki2 h2{
+    margin-top: -350px;
+    margin-left: 350px;
+
+    font-family: sans-serif;
+    
+    color: rgba(0, 0, 0, 0.762);
+}
+
+
+.content .produksi .Chiki2 p{
+    margin-left: 350px;
+    
+}
+
+.content .produksi .Chiki2 a{
+    color: rgba(255, 0, 0, 0.818);
+    margin-left: 350px;
+    font-family: sans-serif;
+
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.content .produksi .Chiki2 .p2{
+
+    color:rgba(0, 0, 0, 0.762);
+
+}
+
+
+.content .produksi .Chiki2 a:hover{
+    color: #7D7C7C;
+    
+}
+
+.content .produksi .Chiki2 .hr1{
+
+    margin-top: 200px;
+
+}
+
+
+.Chiki2 .harga{
+    color: #272829;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.Chiki2 .button{
+    font-size: 25px;
+
+    /* untuk background di perlebar */
+    padding-right: 102px;
+    padding-left: 52px;
+
+    /* untuk animasi */
+    background-color: white;
+    color: green;
+    font-weight: 700;
+    border: 2px solid green;
+
+
+    box-shadow: 0 0 0 0;
+
+    border-radius: 5px;
+
+
+    transition: all 680ms ease;
+
+    width: 40px;
+}
+
+.Chiki2 .button:hover{
+    background-color: green;
+    color: white;
+    font-weight: 700;
+
+    border: 2px solid black;
+
+    box-shadow: 0 0 1px 10px;
+    border-radius: 5px;
+
+
+
+}
+
+
+
+
+
+
+
+
+/* Ciki3 */
+
+
+.content .produksi .Chiki3{
+    margin-left: 100px;
+}
+
+.content .produksi .Chiki3 h2{
+    margin-top: -350px;
+    margin-left: 350px;
+
+    font-family: sans-serif;
+    
+    color: rgba(0, 0, 0, 0.762);
+}
+
+
+.content .produksi .Chiki3 p{
+    margin-left: 350px;
+    
+}
+
+.content .produksi .Chiki3 a{
+    color: rgba(255, 0, 0, 0.818);
+    margin-left: 350px;
+    font-family: sans-serif;
+
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.content .produksi .Chiki3 .p2{
+
+    color:rgba(0, 0, 0, 0.762);
+
+}
+
+
+.content .produksi .Chiki3 a:hover{
+    color: #7D7C7C;
+    
+}
+
+.content .produksi .Chiki3 .hr1{
+
+    margin-top: 200px;
+
+}
+
+
+
+.Chiki3 .harga{
+    color: #272829;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.Chiki3 .button{
+    font-size: 25px;
+
+    /* untuk background di perlebar */
+    padding-right: 102px;
+    padding-left: 52px;
+
+    /* untuk animasi */
+    background-color: white;
+    color: green;
+    font-weight: 700;
+    border: 2px solid green;
+
+    box-shadow: 0 0 0 0;
+    
+    border-radius: 5px;
+
+
+    transition: all 680ms ease;
+
+
+    width: 40px;
+}
+
+.Chiki3 .button:hover{
+    background-color: green;
+    color: white;
+    font-weight: 700;
+
+    border: 2px solid black;
+
+    box-shadow: 0 0 1px 10px;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+/* Ciki4 */
+
+/* Ciki3 */
+
+
+.content .produksi .Chiki4{
+    margin-left: 100px;
+}
+
+.content .produksi .Chiki4 h2{
+    margin-top: -350px;
+    margin-left: 350px;
+
+    font-family: sans-serif;
+    
+    color: rgba(0, 0, 0, 0.762);
+}
+
+
+.content .produksi .Chiki4 p{
+    margin-left: 350px;
+    
+}
+
+.content .produksi .Chiki4 a{
+    color: rgba(255, 0, 0, 0.818);
+    margin-left: 350px;
+    font-family: sans-serif;
+
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.content .produksi .Chiki4 .p4{
+
+    color:rgba(0, 0, 0, 0.762);
+
+}
+
+
+.content .produksi .Chiki4 a:hover{
+    color: #7D7C7C;
+    
+}
+
+.content .produksi .Chiki4 .hr1{
+
+    margin-top: 200px;
+
+}
+
+
+.Chiki4 .harga{
+    color: #272829;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.Chiki4 .button{
+    font-size: 25px;
+
+    /* untuk background di perlebar */
+    padding-right: 102px;
+    padding-left: 52px;
+
+    /* untuk animasi */
+    background-color: white;
+    color: green;
+    font-weight: 700;
+    border: 2px solid green;
+
+
+    box-shadow: 0 0 0 0;
+
+    border-radius: 5px;
+
+
+    transition: all 680ms ease;
+
+
+    width: 40px;
+}
+
+.Chiki4 .button:hover{
+    background-color: green;
+    color: white;
+    font-weight: 700;
+
+    border: 2px solid black;
+
+    box-shadow: 0 0 1px 10px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer{
+    margin-top: 3660px;
+
+}
+
+.footer img{
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+.footer p{
+    margin-top: -30px;
+    margin-left: 640px;
+}
+
+.footer .img-call{
+
+    float: right;
+
+    margin-top: -43px;
+    margin-right: 340px;
+}
+
+
+
+.arrow img{
+    width: 80px;
+    height: 80px;
+
+    border-radius: 100px;
+    background-color: #7D7C7C;
+
+    margin-left: 1660px;
+    margin-top: 30px;
+    border: 2px solid black;
+    z-index: -10;
+
+
+    transition: all 580ms ease-out ;
+}
+
+
+.arrow img:hover{
+    background-color: white;
+    border: 2px solid white;
+    margin-top: -1px;
+
+}
